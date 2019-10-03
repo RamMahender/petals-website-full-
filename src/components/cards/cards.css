@@ -1,0 +1,106 @@
+.row .gutters-20 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.row.gutters-20 > [class^="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* .col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+} */
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 25%;
+}
+.col-12, .col-sm-6, .col-sm-3, .col-6
+{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+.dashboard-summery-one {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 22px 28px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.dashboard-summery-one:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* .dashboard-summery-one :hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  } */
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.dashboard-summery-one .item-icon {
+    position: relative;
+    height: 85px;
+    width: 85px;
+    line-height: 85px;
+    border-radius: 50%;
+    text-align: center;
+}
+.bg-light-green {
+    background-color: #d1f3e0;
+}
+.text-green {
+    color: #3cb878;
+}
+.dashboard-summery-one .item-content {
+    text-align: right;
+}
+.dashboard-summery-one .item-content .item-title {
+    color: #a8a8a8;
+    margin-bottom: 2px;
+    margin-left: -4px;
+}
+.text-blue {
+    color: #3f7afc;
+}
+.bg-light-blue {
+    background-color: #e1f1ff;
+}
+.bg-light-yellow {
+    background-color: #fff2d8;
+}
+.bg-light-purpel {
+    background-color: #faceb0;
+}
+.text-orange {
+    color: #ffa001;
+}
+.bg-light-red {
+    background-color: #ffeaea;
+}
+.text-red {
+    color: #ff0000;
+}
+.text-purpel {
+    color: #f05424;
+}

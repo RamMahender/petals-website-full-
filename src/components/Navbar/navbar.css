@@ -1,0 +1,77 @@
+.abcd{
+    /* margin-left: 1000px; */
+}
+/* body{
+    background-color: blue;
+} */
+
+/* .nav-link {
+    margin-left: 0px;
+    /* margin-top: 30px; */
+/* } */
+.teacherlogo-style{
+    /* margin-left: 50px; */
+    /* margin-bottom:10px; */
+    border-radius: 50%;
+    vertical-align: middle;
+    border-style: none;
+    margin-top: -63px;
+    margin-left:-170px;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.ml-auto {
+    margin-left: auto !important;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+    margin-left: -250px;
+    cursor: pointer;
+}
+.dropdown-menu {
+    position: absolute;
+    /* top: 100%; */
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    margin-top: 0px;
+}
+.icon{
+    vertical-align: middle;
+    border-style: none;
+    margin-top: -50px;
+    margin-left:-110px;
+}
+.teacherlogo-style{
+    width:auto;
+    height: auto;
+}
+.nav-color{
+    background-color: #fff;
+}
+.navbar{
+    box-shadow: "0 2px 6px 0 rgba(0,0,0,0.2)";
+}

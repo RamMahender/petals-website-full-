@@ -1,0 +1,12 @@
+ .footer{ 
+    /* position: fixed; */
+    margin-left: 250px;
+   /* padding: 2rem 0 4rem; */
+   bottom: 0;
+   width: 100%;
+    background-color:#F0F1F3;
+}
+   .copyright{
+   color: #707070;
+   /* text-align: center; */
+}
